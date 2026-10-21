@@ -5,6 +5,22 @@
   "type": "module",
   "description": "Back up every installed plugin and all profile settings into one portable file, then restore them on a new computer in one click. · 把已安装的插件和全部设置保存成一个文件，换电脑后一键恢复。",
   "icon": "icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaJiang07/dsh-plugin-backup.git"
+  },
+  "homepage": "https://github.com/DaJiang07/dsh-plugin-backup#readme",
+  "bugs": {
+    "url": "https://github.com/DaJiang07/dsh-plugin-backup/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "backup",
+    "restore",
+    "migration"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
