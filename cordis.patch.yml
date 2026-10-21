@@ -1,0 +1,6 @@
+# Plugin & settings backup: one Host row owns the authenticated Web route that
+# reads and rewrites this profile's plugin/config files; the manifest's
+# `dsh.client` entry mounts the Settings page that drives it.
+- insert:
+    - id: plugin-backup
+      name: '@local/dsh-plugin-backup'
